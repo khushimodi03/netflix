@@ -1,0 +1,192 @@
+*{
+     margin: 0;
+     padding: 0;
+   }
+.header{
+    background-color: #454545;
+    }
+.navbar{
+    margin: auto;
+    padding: auto;
+    border: 2px black solid;
+    display: flex;
+}
+.logo{
+    height: 3rem;
+    border: 2px black solid;
+    width: 10rem;
+}
+#img{
+  height: 100%;  
+  width: 100%;
+}
+.option{
+     display: flex;
+     justify-content: right;
+    width: 100%;
+     height: 3rem;
+     align-items: center;
+    border: 2px black solid;
+    }
+#language{
+    font-size: larger;
+}
+ #sign{
+    width: fit-content;
+    background-color: red;
+    font-size: larger;
+    }
+.content{
+        margin: auto;
+        padding: 5%;
+        border: 2px black solid;
+    }
+.email{
+   padding: 1%;
+   border: 2px rgb(32, 32, 31) solid;
+}
+#start{
+    background-color: red;
+    color: white;
+    font-size: large;
+    border-radius: 3%;
+    width: 20%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.background{
+    background-color: black;
+    color: white;
+}
+.cards-1{
+    border: 2px black solid;
+    margin: auto;
+    padding: 4%;
+}
+.plan-types{
+    height: 15rem;
+    display: flex;
+}
+.types{
+   height: 90%;
+   width: 30%;
+   margin: 1%;
+   border-radius: 10%;
+   background-color: rgba(84, 64, 86, 0.5);
+}
+.moblie{
+   padding: 2%;
+}
+.cards-2{
+    border: 2px black solid;
+        margin: auto;
+        padding: 4%;
+}
+.join-types {
+    height: 15rem;
+    display: flex;
+}
+.type{
+    height: 90%;
+        width: 30%;
+        margin: 1%;
+        border-radius: 10%;
+        background-color: rgba(83, 96, 179, 0.5);
+}
+.faq {
+    text-align: center;
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+}
+
+.faq h1 {
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+.questions li {
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+    list-style: none;
+}
+
+.faq p {
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.input {
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 56% 45%;
+}
+
+.input input {
+    width: 400px;
+    height: 3rem;
+}
+
+.input button {
+    height: 3.25rem;
+    width: 250x;
+    left: 20px;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    background-color: red;
+    font-size: 1.5rem;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.foot {
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer {
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+}
+
+.footer a {
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    line-height: 2.4;
+    list-style: none;
+}
